@@ -38,5 +38,12 @@ public class Main {
 
         short bigShortLiteralValue = 32767;
 
+        int myTotal = (myMinIntValue / 2);
+        /*casting the value for force to co;pute as a byte instead of a default which is an integer*/
+        byte myNewByteTotal = (byte) (myMinByteValue / 2);
+
+        short myNewShortTotal = (short) (myMinShortValue / 2);
+
+
     }
 }
