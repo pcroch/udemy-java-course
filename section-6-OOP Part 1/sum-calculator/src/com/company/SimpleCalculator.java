@@ -3,6 +3,16 @@ package com.company;
 public class SimpleCalculator {
     private double firstNumber;
     private double secondNumber;
+    private double thirdNumber;
+
+
+    public double getThirdNumber() {
+        return thirdNumber;
+    }
+
+    public void setThirdNumber(double thirdNumber) {
+        this.thirdNumber = thirdNumber;
+    }
 
     public void setFirstNumber(double firstNumber){
         this.firstNumber = firstNumber;
